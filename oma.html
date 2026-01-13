@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>UKVibe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+
+  <!-- Instagram Link -->
+  <a href="https://instagram.com/coolstuff_fromuk" class="ig-link">@coolstuff_fromuk</a>
+
+</header>
+
+<!-- PRODUCTS -->
+<main class="products">
+
+  <!-- PRODUCT CARD -->
+  <div class="card">
+
+    <!-- 1️⃣ IMAGE -->
+    <img src="images/shirt.jpg" alt="Essentials hoodie">
+
+
+    <!-- 2️⃣ NAME -->
+    <h3>Essentials hoodie</h3>
+
+    <!-- 3️⃣ PRICE -->
+    <p class="price">60</p>
+ 
+    <!-- 4️⃣ SIZE SELECTOR -->
+    <label>Size</label>
+    <select id="size">
+      <option>M</option>
+      <option>L</option>
+    </select>
+
+    <!-- 5️⃣ COLOR SELECTOR -->
+    <label>Color</label>
+    <select id="color">
+      <option>Grey</option>
+
+    </select>
+
+    <!-- 6️⃣ ORDER BUTTON (Instagram) -->
+    <button class="btn" onclick="orderInstagram('Essentials hoodie', '60')">
+      Order on Instagram
+    </button>
+  </div>
+
+  <!-- COPY THIS CARD FOR MORE PRODUCTS -->
+  <div class="card">
+    <img src="c:\Users\GAMING\Pictures\hoodie.jpeg" alt="Grey Hoodie">
+    <h3>Grey Hoodie</h3>
+    <p class="price">60</p>
+    <label>Size</label>
+    <select id="size2">
+      <option>M</option>
+      <option>L</option>
+    </select>
+    <label>Color</label>
+    <select id="color2">
+      <option>Grey</option>
+    </select>
+    <button class="btn" onclick="orderInstagram('Grey Hoodie', '60')">
+      Order on Instagram
+    </button>
+  </div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

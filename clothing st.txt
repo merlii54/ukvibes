@@ -1,0 +1,7 @@
+clothing-store/
+├── index.html
+├── style.css
+├── script.js
+└── images/
+    ├── shirt.jpg
+    ├── c:\Users\GAMING\Pictures\hoodie.jpeg
